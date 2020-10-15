@@ -2,18 +2,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>urban.sandbox.java15</groupId>
-    <artifactId>java15-sandbox</artifactId>
+    <parent>
+        <groupId>urban.sandbox.java15</groupId>
+        <artifactId>java15-sandbox</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>urban.sandbox.java15.jep379</groupId>
+    <artifactId>jep379</artifactId>
+    <name>JEP 379</name>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>jep377</module>
-        <module>jep378</module>
-        <module>jep379</module>
-    </modules>
-
-    <name>Java 15 Sandbox</name>
+    <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
