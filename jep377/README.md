@@ -1,4 +1,4 @@
-# JEP 377: ZGC GC
+# JEP 377: ZGC: A Scalable Low-Latency Garbage Collector
 
 https://openjdk.java.net/jeps/377
 
